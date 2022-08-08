@@ -23,4 +23,4 @@ In this project i have created a landing page from scratch. And i have learnt a 
 ![image](images/page.png)
 
 ## You can Preview it Live on Below Link :
-**[Live Link !](https://11-hosting-service-provider.netlify.app/)**
+**[Live Link !](https://13-sass-landing-page.netlify.app/)**
