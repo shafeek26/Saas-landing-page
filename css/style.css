@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@300;400;600;700&family=Poppins:wght@500;600;700&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+body{
+    background-color: #fafafa;
+}
+header{
+    width: 100vw;
+    height: 500px;
+    background-color: #2827CC;
+    color: #ffffff;
+    font-family: "Montserrat",serif;
+    
+}
+.navbar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-logo{
+    width: 100px;
+}
+.nav-list{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.list-items-active{
+    color: #5DA3FA;
+}
+.nav-btn{
+    background-color: #1C8D73;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 30px;
+}
+
+/* header section */
+
+.header-section{
+    width: 100vw;
+}
+.header-container{
+    max-width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-text{
+    width: 45%;
+}
+.header-text h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.header-text p{
+    margin-top: 20px;
+}
+
+.header-img{
+    width: 400px;
+    height: 300px;
+}
+
+
+/* main section */
+.section-container{
+    max-width: 90%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins",sans-serif;
+}
+.section-img{
+    width: 500px;
+    height: 400px;
+}
+.section-text{
+    width: 45%;
+}
+.section-text h1{
+    font-size: 25px;
+    margin: 20px 0;
+}
+.section-content{
+    margin: 20px 0;
+}
+.section-content p{
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+
+/* features section */
+.features-container{
+    width: 100vw;
+}
+.features-wrapper{
+    max-width: 90%;
+    margin: 50px auto;
+    font-family: "Poppins",sans-serif;
+}
+.features-heading{
+    text-align: center;
+    margin: 50px 0;
+}
+.features-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-card{
+    width: 20%;
+    height: 200px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 0 #CAD5E2;
+    border-radius: 10px;
+    padding: 10px;
+}
+.feature-card:hover{
+    box-shadow: 0 0 10px 2px #7691b1;
+}
+.card-img{
+    margin-top: 10px;
+    width: 60px;
+}
+.card-text{
+    margin-top: 20px;
+}
+.card-text h3{
+    text-transform: capitalize;
+}
+.card-text p{
+    font-size: 15px;
+    margin-top: 5px;
+}
